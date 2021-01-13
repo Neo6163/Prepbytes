@@ -1,0 +1,75 @@
+body{
+    background-image: url(blurrimage-2.png);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+.blurrfield{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    padding-top: 220px;
+}
+.contentfield{
+    width: 400px;
+    height: 200px; 
+    margin: auto;  
+}
+
+.box{
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px lightgrey;
+    transition: transform 1s;
+}
+.box:hover{
+    transform: scale(1.05,1.05);
+}
+.boxupper{
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    margin-top: 30px;
+}
+.boxmiddle{
+    text-align: center;
+    margin-top: 30px;
+}
+input[type=text]{
+    width: 65%;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    box-shadow: 2px 2px 4px lightgrey;
+}
+.boxlower{
+    margin-top: 30px;
+    text-align: center;
+}
+.cta-button{
+    width:25%;
+    height: 35px;
+    color: white;
+    background-color: orangered;
+    outline: none;
+    border-radius: 15px;
+    font-size: large;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 27px;
+
+}
+.cta-button:hover{
+    background-color: red;
+}
+.cta-button:active{
+    transform: scale(1.05,1.05);
+}
+.nextpage{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 250px;
+    text-decoration: none;
+}

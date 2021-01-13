@@ -1,0 +1,75 @@
+body{
+    background-image: url(blurrimage-1.png);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+.blur-field{
+    width: 500px;
+    height: 740px;
+    position:relative;
+    margin:auto;
+}
+.field-container{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+.box{
+    border: 1px solid orangered;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    margin:auto;
+    box-shadow:10px 10px 10px lightgrey;
+    transition: transform 1s;
+}
+.box:hover{
+    transform: scale(1.05,1.05);
+}
+.boxupper{
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    margin-top: 30px;
+}
+.boxmiddle{
+    text-align: center;
+    margin-top: 20px;
+}
+input[type=text]{
+    width: 65%;
+    border: 1px solid orangered;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px lightgrey;
+}
+.boxlower{
+    margin-top: 30px;
+    text-align: center;
+}
+.cta-button{
+    font-size: large;
+    outline: none;
+    width:25%;
+    height:35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 0px;
+    transition: transform 0.3s;
+}
+.cta-button:hover{
+    background-color: red;
+}
+.cta-button:active{
+    transform: scale(1.05,1.05);
+}
+.nextpage{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 20px;
+    text-decoration: none;
+}

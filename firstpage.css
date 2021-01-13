@@ -1,0 +1,77 @@
+body{
+    /*background-image: radial-gradient(circle at center,#43cea2,#185a9d);*/
+}
+.control{
+    margin: 100px 200px;
+}
+.top-bar{
+    display:flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 64px;
+    font-weight: 700;
+}
+.rightside{
+    display:flex;
+    margin-right: 20px;
+}
+.icontext{
+    font-size: 50px;
+    font-weight:100;
+    color:gray; 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+.fa-plus-circle{
+    color:orangered;
+    font-size: 60px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.box1{
+    width: 220px;
+    height: 350px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgrey;
+    transition: transform 1s;
+}
+.box1:hover{
+    transform: scale(1.08,1.08);
+}
+.boxupper{
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.title{
+    color: orangered;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+.linestrike{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:red;
+    text-decoration: line-through;
+}
+.boxlower{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.linktag{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
